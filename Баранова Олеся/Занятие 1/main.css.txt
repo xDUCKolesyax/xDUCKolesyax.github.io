@@ -1,0 +1,8 @@
+#table{
+	border: 5px solid black;
+
+}
+#table tr td{
+	border: 2px solid red;
+
+}

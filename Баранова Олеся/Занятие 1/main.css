@@ -1,0 +1,44 @@
+#table{
+	border: 5px solid black;
+
+}
+#table tr td{
+	border: 2px solid white;
+
+}
+#block{
+	background-image: url(tumblr_o3ocfolAaW1te68hxo1_500.jpg); 	
+	background-position: center; 
+	background-size: 100%;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	border-radius: 5px; 
+	text-align: center;
+}
+#block h1{
+	text-align: center;
+	color: #fff;     
+}
+
+#block p{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+} 
+
+#link{
+	color: #170d0c;
+	font-size: 30px;
+	font-weight: 900;
+} 
+#block table{
+	margin: auto;
+	width: 40%;
+	height: 200px;
+
+}
+#block table td{
+	text-align: center;
+	color: #fff;
+}
