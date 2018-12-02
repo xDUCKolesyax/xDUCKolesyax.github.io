@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body,main{
+	height: 100%;
+	font-family: font-family: 'Oswald', sans-serif;
+}
+/* первый экран */
+.first{
+	height: 100%;
+	background-image: url(img/main_bg.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.first p{
+	color: #fff;
+}
+.tourism{
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+}
+.text-container{
+	width: 40%;
+	margin-left: 40px;
+	margin-top: 195px;
+}
+.first-line{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+.second-line{
+	text-transform: uppercase;
+	font-size: 64px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	line-height: 1;
+}
+.third-line{
+	font-size: 20px;
+}
+/* второй экран */
+.second{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.gallery-container{
+	width: 60%;
+	max-width: 1000px;
+}
+.img-container{
+	width: 100%;
+    display: flex;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+}
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+	transition: 1s;
+}
+img:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 20px 5px rgba(0,0,0,0.3);
+}
+.img1{
+	width: 55%;
+}
+.wrapper{
+	margin-left: 20px;
+}
+.img2{
+	margin-bottom: 20px;
+}
+.gallery-text{
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.gallery-header{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin-right: 5%;
+}
+.gallery-p{
+	font-size: 18px;
+}
+.last-container{
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+	height: 300px;
+	padding: 0 25px;
+	background-image: url(img/footer_bg.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.last-header{
+	color: #fff;
+	font-size: 23px;
+	padding: 10px 25px;
+	border: 1px solid #fff;
+	margin-bottom: 40px;
+	text-decoration: none;
+}
+.last-header:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.last-text{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	padding: 0 250px;
+}
